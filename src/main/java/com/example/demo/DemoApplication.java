@@ -10,4 +10,8 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
     }
 
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }
